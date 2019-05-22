@@ -7,9 +7,35 @@ p {
   height: 300px;
   color: red;
   background-color: red;
-  margin: 0 0 0 230px;
+  margin-left: 200px;
 }
 
 .test:hover {
   background-color: #00ac00;
+}
+
+.text {
+  font-family: "helvetica", verdana, sans-serif;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 200;
+  /*font-variant: small-caps;*/
+  line-height: 1.5;
+  border: 5px dotted red;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration: overline;
+  text-decoration: line-through;
+  -ms-text-justify: distribute;
+  text-justify: distribute;
+  text-indent: 30px;
+}
+
+.text {
+  font: italic 16px/1.4 Arial, serif;
+}
+
+h1 {
+  font-size: 23px;
+  font-weight: 200;
 }
