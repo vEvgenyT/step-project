@@ -1,23 +1,37 @@
-.position {
-  border: 2px solid blue;
+.on:hover {
+  color: white;
 }
 
-.position:nth-child(1) {
-  position: relative;
-  left: 30px;
-  bottom: 25px;
+.link:focus {
+  color: yellow;
+}
+.link:visited {
+  color: green;
 }
 
-.position:nth-child(2) {
-  border: 3px dotted red;
-  /*position: relative;*/
-  position: absolute;
+li:first-child {
+  background-color: red;
 }
 
+li:last-child {
+  background-color: green;
+}
 
+li:nth-child(3) {
+  background-color: olive;
+}
 
+li:nth-child(odd) {
+  background-color: blue;
+}
 
+li:nth-child(even) {
+  background-color: black;
+}
 
+li:nth-child(5n+1) {
+  background-color: purple;
+}
 
 
 
