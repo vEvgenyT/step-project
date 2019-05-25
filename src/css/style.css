@@ -1,58 +1,77 @@
-.on:hover {
-  color: white;
-}
-
-.link:focus {
-  color: yellow;
-}
-.link:visited {
-  color: green;
-}
-
-li:first-child {
+.block {
+  border: 2px solid blue;
   background-color: red;
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
 }
 
-li:last-child {
-  background-color: green;
+.bord {
+  background-image: linear-gradient(yellow, green);
+  padding: 10px;
+  border-left: 2px solid red;
+  outline: 2px dotted green;
+  outline-offset: 5px;
 }
 
-li:nth-child(3) {
-  background-color: olive;
+.bkgr {
+  background-color: white;
+  padding: 20px;
 }
 
-li:nth-child(odd) {
-  background-color: blue;
+.bkg {
+  background-color: yellow;
+  font-size: 19px;
+  font-family: 'Helvetica';
 }
 
-li:nth-child(even) {
-  background-color: black;
+div .bkg:first-child {
+  background-color: none;
 }
 
-li:nth-child(5n+1) {
-  background-color: purple;
+.bkg:nth-child(2) {
+  font-weight: 100;
 }
 
-.gradient {
-  background-image: linear-gradient(red, blue);
+.bkg:nth-child(3) {
+  font-weight: 300;
 }
 
-.media {
-  display: none;
+.bkg:nth-child(4) {
+  font-weight: 500;
 }
 
-@media (max-width:720px) {
-  .media {
-    display: block;
-  }
+.bkg:nth-child(5) {
+  font-weight: 700;
 }
 
+.bkg:nth-child(6) {
+  font-weight: 900;
+}
 
+.item {
+  background-color: brown;
+  color: white;
+  margin: 2px;
+  width: 300px;
+  padding: 0 0 0 10px;
+}
 
+.item:first-child {
+  border-radius: 5px 5px 0 0;
+}
+.item:last-child {
+  border-radius: 0 0 5px 5px;
+}
 
-
-
-
-
-
+.hz {
+  background: green;
+  border: 3px solid white;
+  outline: 10px solid green;
+  outline-offset: 2px;
+  padding: 5px;
+  width: 600px;
+  margin: auto;
+  /*display: inline;*/
+}
 
