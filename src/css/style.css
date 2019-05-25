@@ -33,9 +33,19 @@ li:nth-child(5n+1) {
   background-color: purple;
 }
 
+.gradient {
+  background-image: linear-gradient(red, blue);
+}
 
+.media {
+  display: none;
+}
 
-
+@media (max-width:720px) {
+  .media {
+    display: block;
+  }
+}
 
 
 
