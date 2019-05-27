@@ -1,77 +1,39 @@
-.block {
-  border: 2px solid blue;
-  background-color: red;
-  width: 100%;
-  padding: 0 10px;
-  box-sizing: border-box;
-}
-
-.bord {
-  background-image: linear-gradient(yellow, green);
-  padding: 10px;
-  border-left: 2px solid red;
-  outline: 2px dotted green;
-  outline-offset: 5px;
-}
-
-.bkgr {
-  background-color: white;
-  padding: 20px;
-}
-
-.bkg {
-  background-color: yellow;
-  font-size: 19px;
-  font-family: 'Helvetica';
-}
-
-div .bkg:first-child {
-  background-color: none;
-}
-
-.bkg:nth-child(2) {
-  font-weight: 100;
-}
-
-.bkg:nth-child(3) {
-  font-weight: 300;
-}
-
-.bkg:nth-child(4) {
-  font-weight: 500;
-}
-
-.bkg:nth-child(5) {
-  font-weight: 700;
-}
-
-.bkg:nth-child(6) {
-  font-weight: 900;
+.wrapper {
+  width: 850px;
+  background-color: blue;
 }
 
 .item {
-  background-color: brown;
-  color: white;
-  margin: 2px;
-  width: 300px;
-  padding: 0 0 0 10px;
-}
-
-.item:first-child {
-  border-radius: 5px 5px 0 0;
-}
-.item:last-child {
-  border-radius: 0 0 5px 5px;
-}
-
-.hz {
-  background: green;
-  border: 3px solid white;
-  outline: 10px solid green;
-  outline-offset: 2px;
-  padding: 5px;
-  width: 600px;
+  background-color: orange;
+  width: 750px;
   margin: auto;
-  /*display: inline;*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
+.head {
+  background-color: orange;
+  /*width: 300px;*/
+  height: 300px;
+  text-align: center;
+}
+
+.text {
+  border-bottom: 3px solid red;
+}
+
+.list {
+  background-color: purple;
+  height: 50px;
+}
+
+.items {
+  list-style: none;
+  line-height: 50px;
+}
+
+.links {
+  color: white;
+  text-decoration: none;
+}
