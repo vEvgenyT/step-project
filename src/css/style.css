@@ -17,6 +17,8 @@
   background-color: orange;
   flex-direction: column-reverse;
   justify-content: space-between;
+  -ms-align-items: center;
+  align-items: center;
 }
 
 
