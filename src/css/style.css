@@ -1,3 +1,104 @@
-a {
-  font-size: 14px;
+.item {
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+  margin: 10px;
 }
+
+.parent {
+  display: flex;
+  background-color: orange;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.parent1 {
+  display: flex;
+  background-color: orange;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+
+.parent2 {
+  display: flex;
+  background-color: orange;
+  min-height: 600px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item2 {
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+  margin: 10px;
+}
+
+.item2:nth-child(odd) {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.parent3 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: orange;
+  height: 700px;
+  align-content: space-around;
+}
+
+.item3 {
+  margin: 10px;
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  font-size: 25px;
+  color: white;
+  order: 3;
+}
+
+
+.parent4 {
+  background-color: orange;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 610px;
+}
+
+.item4 {
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+  margin: 5px;
+}
+
+.item4:nth-child(2) {
+  flex-grow: 2;
+  flex-shrink: 0;
+  align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

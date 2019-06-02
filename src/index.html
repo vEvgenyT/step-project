@@ -36,8 +36,96 @@
       <strong>We're sorry but template doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <main>
-      <div>
-
+      <h2>Свойства для флекс контейнера</h2>
+      <p>По умолчанию (flex-direction: row) флекс элементы внутри контейнера выстраиваются по главной оси(горизонтальная) слева направо. Если применить значение свойства row-reverse то элементы выстроятся справо налево</p>
+      <section class="parent">
+        <div class="item">Это флекс элемент</div>
+        <div class="item">Это флекс элемент</div>
+        <div class="item">Это флекс элемент</div>
+      </section>
+      <h4>Если применить свойство column и column-reverse то элементы выстроятся по вертикальной оси сверху вниз и наоборот соответственно</h4>
+      <section class="parent1">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+      </section>
+      <br>
+      <br>
+      <h4>Свойство flex-wrap имеет три значения: по умолчанию это nowrap, также это wrap и wrap-reverse. Если без переноса контейнеров то они ужимаются вместе с контентом, если установить перенос, то конейнеры будут переноситься на новую строку</h4>
+      <section class="parent">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+      </section>
+      <h4>justify-content помогает растянуть флекс элементы внутри контейнера по главной оси. Иными словами равномерное распределение, где расстояние высчитывается автоматически. Значения свойства: flex-start, flex-end, center, space-between, space-around</h4>
+      <section class="parent">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+      </section>
+      <br>
+      <br>
+      <h4>align-items выравнивает элементы на главной оси по вертикали, иными словами вдоль нее по центру. Имеет следующие свойства: stretch(если у элемента явно указана высота, то не работает), flex-start, flex-end, center, baseline </h4>
+      <section class="parent2">
+        <div class="item2">1</div>
+        <div class="item2">2</div>
+        <div class="item2">3</div>
+        <div class="item2">4</div>
+        <div class="item2">5</div>
+      </section>
+      <br>
+      <br>
+      <br>
+      <h4>align-content выравнивает строки по главной оси когда при переносе остается дополнительное пространство. Уконтейнера должан быть определена высота явно. Подобие justify content. Свойства: stretch, flex-start, flex-end, space-between, space-around</h4>
+      <section class="parent3">
+        <div class="item3">1</div>
+        <div class="item3">2</div>
+        <div class="item3">3</div>
+        <div class="item3">4</div>
+        <div class="item3">5</div>
+        <div class="item3">6</div>
+        <div class="item3">7</div>
+        <div class="item3">8</div>
+        <div class="item3">9</div>
+        <div class="item3">10</div>
+        <div class="item3">11</div>
+        <div class="item3">12</div>
+        <div class="item3">13</div>
+        <div class="item3">14</div>
+        <div class="item3">15</div>
+        <div class="item3">16</div>
+        <div class="item3">17</div>
+        <div class="item3">18</div>
+        <div class="item3">19</div>
+        <div class="item3">20</div>
+      </section>
     </main>
+    <br>
+    <br>
+    <br>
+    <h3>Подведем итог по флекс контейнерам:</h3>
+    <p>У флекс контейнера есть свойства: flex-direction, определяющее направление главной оси, со значениями: row и column а также reverse для них</p>
+    <p>flex-wrap для переноса флекс элементов на новую строку при отсутствии места со значениями nowrap по умолчанию, wrap и wrap-reverse</p>
+    <p>justify-content для равномерного распределения флекс элементов внутри контейнера со значениями: flex-start, flex-end, center, space-between, space-around</p>
+    <p>align-items выравнивает элементы по главной оси по вертикали. Имеет значения: center, flex-start, flex-end и stretch</p>
+    <p>align-content распределяет елементы перпендикулярно главной оси. Имеет значения как и в justify content: flex-start, flex-end, center, space-between, space-around</p>
+    <h2>Свойства флекс элементов</h2>
+    <b></b>
+    <b></b>
+    <h4>Жадность флекс элемента или flex-grow (насколько элемент больше остальных), flex-shrink коэффициент сжатия элемента (если у элементов задана ширина и они не помещаются в вьюпорт, то они сжимаются, при нулевом значении свойства элемент не будет сжиматься)</h4>
+    <h4>align-self переопределяет свойства заданные через align-items для определенного флекс элемента. Доступны свойства: stretch, center, baseline, flex-end, flex-start</h4>
+    <section class="parent4">
+      <div class="item4">1</div>
+      <div class="item4">2</div>
+      <div class="item4">3</div>
+      <div class="item4">4</div>
+      <div class="item4">5</div>
+    </section>
   </body>
 </html>
